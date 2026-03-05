@@ -1,6 +1,6 @@
 # Secure Notes CLI
 
-A secure command-line notes application with encryption support, built with Bun and SQLite.
+A secure command-line notes application with encryption support, built with Bun and SQLite. This was built to demo RostrumAI's capabilities within a live GitHub repository. Do NOT use this application - it was vibe coded in <5 minutes with the explicit purpose of NOT being production reqady.
 
 ## Features
 
