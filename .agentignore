@@ -1,0 +1,45 @@
+# AI Agent Ignore File
+# Files and patterns that AI coding agents should ignore
+
+# Test fixtures and mock data
+tests/fixtures/
+tests/mocks/
+*.mock.ts
+
+# Sensitive configuration
+.env.local
+.env.*.local
+secrets/
+credentials/
+
+# Generated files
+*.generated.ts
+*.generated.js
+
+# Build artifacts
+dist/
+build/
+*.exe
+secure-notes
+secure-notes-*
+
+# Database files (for testing)
+*.db
+*.db-wal
+*.db-shm
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db

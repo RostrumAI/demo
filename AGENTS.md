@@ -2,6 +2,15 @@
 
 This project uses Bun instead of Node.js. Please follow these conventions:
 
+## Agent Ignore Patterns
+
+This project uses `.agentignore` to specify files that AI coding agents should ignore. These files:
+- Can still be committed to the repository
+- Should not be read, modified, or referenced by AI agents
+- May contain sensitive data, generated code, or test fixtures
+
+**Respect the `.agentignore` file** - do not access or modify files matching these patterns.
+
 ## Runtime & Package Manager
 
 - Use `bun <file>` instead of `node <file>` or `ts-node <file>`
